@@ -1,16 +1,16 @@
 #include <stdio.h>
 /**
- * main - program that prints all possible combinations of 
+ * main - program that prints all possible combinations of
  * two two-digit
  * The numbers should range from 0 to 99
  * Numbers must be separated by ,followed by a space
- * All numbers should be printed with two digits. 1 should be printed as 01
+ * All numbers should be printed with two digits. 1 should be printed as 01
  * Return: 0
  */
 int main(void)
 {
 int n1 = 48;
-nt a = 0;
+int a = 0;
 int b;
 int com = 44;
 while (a <= 99)
@@ -31,7 +31,7 @@ putchar(32);
 b += 1;
 }
 a += 1;
-}
 putchar('\n');
-eturn (0);
+return (0);
 }
+
