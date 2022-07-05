@@ -10,10 +10,10 @@ int i = 0;
 char text[] = "_putchar";
 while (text[i] != '\0')
 {
-_putchar(text[i]);	
+ _putchar(text[i]);	
 i++;
 }
-_putchar('\n');
+ _putchar('\n');
 return (0);
 }
 
