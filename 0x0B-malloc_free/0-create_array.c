@@ -7,7 +7,8 @@
  * @c: The specific char to intialize the array with.
  * Return: If size == 0 or the function fails - NULL.
  * Otherwise - a pointer to the array.
- */char *create_array(unsigned int size, char c)
+ */
+char *create_array(unsigned int size, char c)
 {
 char *array;
 unsigned int index;
