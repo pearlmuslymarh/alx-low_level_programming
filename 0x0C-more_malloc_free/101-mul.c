@@ -45,7 +45,7 @@ add = (dest[k] - '0') + (mul % 10) + addrem;
 addrem = add / 10;
 dest[k] = add % 10 + '0';
 }
-or (addrem += mulrem; k >= 0 && addrem; k--)
+or(addrem += mulrem; k >= 0 && addrem; k--)
 {
 add = (dest[k] - '0') + addrem;
 addrem = add / 10;
