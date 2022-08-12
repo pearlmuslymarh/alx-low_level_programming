@@ -1,1 +1,1 @@
-Write a function that initialize a variable of type struct dog
+0x12-singly_linked_list
